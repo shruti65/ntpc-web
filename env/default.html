@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Default</title>
+    <style>
+      h1 {text-align: center;
+          font-weight: bold;
+          position: absolute;
+          top: 20px;
+          left: 720px;
+
+ }
+  h3 {text-align: center;
+          font-weight: bold;
+          position: absolute;
+          top: 90px;
+          left: 850px;
+  }
+  
+  table{
+    border: 1px solid black;
+    height: 2.5cm;
+    width: 40cm;
+    text-align: center;
+  }
+  td {
+border: 1px solid black;
+}
+th{
+  border: 1px solid black;
+  background-color: gold;
+ color: red;
+}
+table.center {
+margin-left: auto;
+margin-right: auto;
+}
+.logo{
+position: absolute;
+          
+          right: 80px;
+}
+.abc{
+  text-align: center;
+  
+}
+  </style>
+    
+</head>
+<body>
+ 
+  <div>
+    <img width= "150cm" height="150cm"src="ntpc-logo.jpg">
+    <h1>  ONLINE ENVIRONMENT DATA </h1>
+    <h3> Kawas Gas Power Project</h3>
+    <img class="logo" width= "150cm" height="150cm"src="ntpc-logo.jpg">
+</div>
+<div class="abc">
+    <h4> 
+    <script>
+        var today = new Date();
+      var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
+      var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+      var dateTime = date+' '+time;
+      
+      document.write(dateTime);
+      </script>
+      </h4>
+    </div>
+    <table class="center">
+        <tr>
+          <th>Generation Capacity</th>
+          <th>Consolidated Consent Order No.</th>
+          <th>Bio Medical Waste Authorization No.</th>
+        </tr>
+        <tr>
+        <td>656.20 MW</td>
+          <td>AWH-108146, Validity-31/12/2024</td>
+          <td>BMW-355745, Validity-19/07/2026</td>
+        </tr>
+      </table>
+      <br>
+      <br>    
+    
+      <table class="center">
+        <tr>
+          <th colspan="9">Hazaradous Chemicals</th>
+          </tr>
+          <tr>
+            <th>Chemical</th>
+            <th>Naphtha</th>
+            <th>HSD</th>
+            <th>Hydrochloric Acid 30%</th>
+            <th>Sulphuric Acid 98%</th>
+            <th>Chlorine</th>
+            <th>Caustic Soda Lye</th>
+            <th>Liquid Ammonia</th>
+            <th>Hydrazine Hydrate 98%</th>
+          
+            
+          </tr>
+          
+        <tr>
+          <td>Storage Capacity</td>
+          <td>8000.00 KL</td>
+          <td>250.00 KL</td>
+          <td>68.00 MT</td>
+          <td>120.00 M3</td>
+          <td>10.80 MT</td>
+          <td>60.00 MT</td>
+          <td>2000.00 Liters</td>
+          <td>1000.00 KG</td>
+          
+        </tr>
+      </table>
+      <br>
+      <br>
+
+      <table class="center">
+        <tr>
+          <th colspan="6" >Hazaradous Waste</th>
+          </tr>
+          <tr>
+            <th>Type Of Waste</th>
+            <th>Used Oil</th>
+            <th>Used Mineral Wool</th>
+            <th>Discarded Container</th>
+            <th>Used Ion Exchange Resin</th>
+            <th>Marking Cloth/Cotton Waste</th>
+           
+          </tr>
+          
+        <tr>
+          <td>Consent Qty/Year</td>
+          <td>30.00 MT</td>
+          <td>10.00 MT</td>
+          <td>5 MT</td>
+          <td>10.00 MT</td>
+          <td>500.00 KG</td>
+          
+          
+        </tr>
+        <tr>
+          <td>Quantity Disposed (2021-2022)</td>
+          <td>0.00 MT</td>
+          <td>0.00 MT</td>
+          <td>0.18 MT</td>
+          <td>0.00 MT</td>
+          <td>0.00 KG</td>
+         
+        </tr>
+
+        
+      </table>
+      <br>
+      <br>
+      <div style=" margin-left: 200px;">
+        <iframe  src="http://10.0.113.10/Environment_data/live.aspx" runat="server" frameborder="0" width="88%" height="60%"  scrolling="no" marginheight="0" marginwidth="0"
+       ></iframe>
+        </div>
+     <script>
+        setTimeout(function(){
+          window.location.href="default2.html" ;
+        
+        },10000);
+      </script>
+
+</body>
+</html>
